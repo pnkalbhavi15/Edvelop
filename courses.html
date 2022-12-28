@@ -1,0 +1,80 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>Courses</title>
+    <link rel="stylesheet" href="courses_style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <div class="banner-text">
+      <ul>
+        <li><a href="/mainpage.html">Home</a></li>
+        <li><a href="/about.html">About</a></li>
+        <li><a href="/courses.html">Courses</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <br />
+    <div class="container">
+      <!-- Slider main container -->
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <div class="button">
+              <a href="/webdev_courses.html">Go To Web Development Courses</a>
+            </div>
+            <img src="webdev.jpg" />
+          </div>
+          <div class="swiper-slide">
+            <div class="button">
+              <a href="/dsa_courses.html"
+                >Go To Data Structures and Algorithms Courses</a
+              >
+            </div>
+            <img src="dsa.jpg.crdownload" />
+          </div>
+          <div class="swiper-slide">
+            <div class="button">
+              <a href="/cybersecurity_courses.html"
+                >Go To Cyber Security Courses</a
+              >
+            </div>
+            <img src="cybersecurity.jpg" />
+          </div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+      const swiper = new Swiper(".swiper", {
+        autoplay: {
+          delay: 3000,
+          disableOnInteraction: false,
+        },
+        loop: true,
+
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+  </body>
+</html>

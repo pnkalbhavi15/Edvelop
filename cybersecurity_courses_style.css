@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(
+      217deg,
+      rgba(255, 0, 0, 0.8),
+      rgba(255, 0, 0, 0) 70.71%
+    ),
+    linear-gradient(127deg, rgba(0, 255, 0, 0.8), rgba(0, 255, 0, 0) 70.71%),
+    linear-gradient(336deg, rgba(0, 0, 255, 0.8), rgba(0, 0, 255, 0) 70.71%);
+  font-family: Baloo;
+}
+.banner-text {
+  width: 65%;
+  position: absolute;
+  margin-left: 350px;
+}
+.banner-text ul {
+  list-style-type: none;
+}
+.banner-text ul li {
+  display: inline-flex;
+  margin-top: 5px;
+}
+.banner-text ul li a {
+  margin-left: 65px;
+  display: inline-block;
+  padding: 25px 12px;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 15px;
+}
+.header button {
+  color: white;
+  margin-top: 30px;
+  border-color: #ccc;
+  height: 35px;
+  width: 250px;
+  font-size: larger;
+  font-weight: 800px;
+  margin-left: 42%;
+}
+.card {
+  width: 20%;
+  display: inline-block;
+  box-shadow: 2px 2px 20px black;
+  border-radius: 5px;
+  margin: 2%;
+}
+
+.image img {
+  width: 75%;
+  margin-top: 30px;
+  margin-left: 30px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.title {
+  text-align: center;
+  padding: 10px;
+  color: white;
+}
+.title button {
+  color: black;
+  border-color: #ccc;
+  font-size: large;
+  font-weight: 800px;
+  margin-top: 15px;
+}
+.des {
+  padding: 3px;
+  text-align: center;
+  color: #fff;
+  padding-top: 10px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.des button {
+  margin-top: 40px;
+  margin-bottom: 10px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px;
+}
+.des button:hover {
+  background-color: black;
+  color: white;
+  transition: 0.5s;
+  cursor: pointer;
+}

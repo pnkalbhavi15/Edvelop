@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: linear-gradient(
+      217deg,
+      rgba(255, 0, 0, 0.8),
+      rgba(255, 0, 0, 0) 70.71%
+    ),
+    linear-gradient(127deg, rgba(0, 255, 0, 0.8), rgba(0, 255, 0, 0) 70.71%),
+    linear-gradient(336deg, rgba(0, 0, 255, 0.8), rgba(0, 0, 255, 0) 70.71%);
+  font-family: Baloo;
+}
+.container {
+  color: #fff;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner-text {
+  width: 65%;
+  position: absolute;
+  margin-left: 350px;
+}
+.banner-text ul {
+  list-style-type: none;
+}
+.banner-text ul li {
+  display: inline-flex;
+  margin-top: 5px;
+}
+.banner-text ul li a {
+  margin-left: 65px;
+  display: inline-block;
+  padding: 25px 12px;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 15px;
+}
+.banner-text h2 {
+  font-size: xx-large;
+  margin-left: 270px;
+  margin-top: 20px;
+  color: #fff;
+}
+.wrapper span {
+  color: #fff;
+  font-size: x-large;
+  margin-top: 50px;
+  margin-left: 110px;
+}
+span:before {
+  content: " ";
+  animation: animate infinite 30s;
+}
+@keyframes animate {
+  0% {
+    content: "D => DEVELOPS YOUR SKILLS";
+  }
+  20% {
+    content: "V => VALUES YOUR TIME";
+  }
+  40% {
+    content: "E => ENRICHES YOUR KNOWLEDGE ";
+  }
+  60% {
+    content: "L => LIGHTENS YOUR EYES";
+  }
+  80% {
+    content: "O => OBSERVES YOUR PASSION ";
+  }
+  100% {
+    content: "P => PUSHES YOU TOWARDS YOUR GOAL";
+  }
+}

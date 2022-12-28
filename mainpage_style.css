@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(
+      217deg,
+      rgba(255, 0, 0, 0.8),
+      rgba(255, 0, 0, 0) 70.71%
+    ),
+    linear-gradient(127deg, rgba(0, 255, 0, 0.8), rgba(0, 255, 0, 0) 70.71%),
+    linear-gradient(336deg, rgba(0, 0, 255, 0.8), rgba(0, 0, 255, 0) 70.71%);
+  font-family: Baloo;
+  min-height: 100vh;
+}
+.banner-text {
+  width: 65%;
+  position: absolute;
+  margin-left: 300px;
+}
+.banner-text ul {
+  list-style-type: none;
+}
+.banner-text ul li {
+  display: inline-flex;
+  margin-top: 5px;
+}
+.banner-text ul li a {
+  margin-left: 65px;
+  display: inline-block;
+  padding: 25px 12px;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 15px;
+}
+/*.banner-text ul li button {
+  margin-left: 65px;
+  display: inline-block;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 15px;
+  background: rgb(177, 173, 173);
+  border-color: #ccc;
+  height: 30px;
+  width: 130px;
+}*/
+h2 {
+  font-weight: 800;
+  text-align: center;
+  color: #fff;
+  font-size: 100px;
+  margin-top: 130px;
+  margin-right: 280px;
+}
+h3 {
+  font-weight: 1000;
+  text-align: center;
+  color: #fff;
+  font-size: 40px;
+}
+.wrapper span {
+  font-weight: 800;
+  margin-left: 0px;
+  color: #fff;
+  font-size: 25px;
+  /*color: #fff;
+  font-size: x-large;
+  margin-top: 20px;
+  margin-left: 200px;*/
+}
+span:before {
+  content: " ";
+  animation: animate infinite 10s;
+}
+@keyframes animate {
+  0% {
+    content: " ";
+  }
+  10% {
+    content: "Live as";
+  }
+  20% {
+    content: "Live as if you ";
+  }
+  30% {
+    content: "Live as if you were to ";
+  }
+  40% {
+    content: "Live as if you were to die tomorrow";
+  }
+  50% {
+    content: "Live as if you were to die tomorrow. Learn";
+  }
+  60% {
+    content: "Live as if you were to die tomorrow. Learn as if";
+  }
+  70% {
+    content: "Live as if you were to die tomorrow. Learn as if you were";
+  }
+  80% {
+    content: "Live as if you were to die tomorrow. Learn as if you were to live";
+  }
+  90% {
+    content: "Live as if you were to die tomorrow. Learn as if you were to live forever.";
+  }
+  100% {
+    content: "Live as if you were to die tomorrow. Learn as if you were to live forever. By-Mahatma Gandhi";
+  }
+}
